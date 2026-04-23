@@ -1,5 +1,5 @@
 FROM eclipse-temurin:17-jdk
 WORKDIR /app
 COPY . .
-RUN javac Grade.java
+RUN javac app.java
 CMD ["java", "app"]
